@@ -17,6 +17,6 @@ Copy the script to the path:
 Set a cronjob with the following command:
 
 `
-* 03 * * 0 /usr/bin/python /usr/local/sbin/reboot-server.py > /dev/null 2>&1
+ 10 03 * * 0 /usr/bin/python /usr/local/sbin/reboot-server.py > /dev/null 2>&1
 `
 
